@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon Mar 29 20:55:35 2021 by Eclipse SUMO duarouter Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="unreal_layout_custom_widths_final_pedestrians.net.xml"/>
+        <route-files value="pedestrians.trip.xml"/>
+    </input>
+
+    <output>
+        <output-file value="pedestrians.rou.xml"/>
+        <alternatives-output value="pedestrians.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="800.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="car0" type="Mazada3" depart="5.00">
+        <route edges="w3 s5 e6"/>
+    </vehicle>
+
+    <vehicle id="car1" type="Mazada3" depart="101.00">
+        <route edges="w6 n5 e3"/>
+    </vehicle>
+    <vehicle id="car2" type="Mazada3" depart="151.00">
+        <route edges="w5"/>
+    </vehicle>
+    <vehicle id="car3" type="Mazada3" depart="179.00">
+        <route edges="n2 e2 s5 w5 w4"/>
+    </vehicle>
+
+    <vehicle id="car4" type="Mazada3" depart="208.00">
+        <route edges="n5 w2"/>
+    </vehicle>
+
+
+    <vehicle id="car5" type="Mazada3" depart="286.00">
+        <route edges="n2 e2"/>
+    </vehicle>
+    <vehicle id="car6" type="Mazada3" depart="347.00">
+        <route edges="e1 s2 e5 s6"/>
+    </vehicle>
+    <vehicle id="car7" type="Mazada3" depart="349.00">
+        <route edges="w2 s2 e5 s6"/>
+    </vehicle>
+    <vehicle id="car8" type="Mazada3" depart="351.00">
+        <route edges="s1 s2 e5 s6"/>
+    </vehicle>
+    <vehicle id="car9" type="Mazada3" depart="393.00">
+        <route edges="s4 w2 s2"/>
+    </vehicle>
+    <vehicle id="car10" type="Mazada3" depart="400.00">
+        <route edges="w5"/>
+    </vehicle>
+    <vehicle id="car11" type="Mazada3" depart="407.00">
+        <route edges="n6 n5 w2 s2"/>
+    </vehicle>
+    <vehicle id="car12" type="Mazada3" depart="455.00">
+        <route edges="s5 w5 n2 n1"/>
+    </vehicle>
+    <vehicle id="car14" type="Mazada3" depart="545.00">
+        <route edges="e4 e5 n5 n4"/>
+    </vehicle>
+    <vehicle id="car15" type="Mazada3" depart="567.00">
+        <route edges="w3 w2 s2 e5 n5"/>
+    </vehicle>
+    <vehicle id="car16" type="Mazada3" depart="623.00">
+        <route edges="w2 s2 e5 s6"/>
+    </vehicle>
+    <vehicle id="car17" type="Mazada3" depart="627.00">
+        <route edges="w2 s2 s3"/>
+    </vehicle>
+    <vehicle id="car18" type="Mazada3" depart="642.00">
+        <route edges="e1 e2 n4"/>
+    </vehicle>
+    <vehicle id="car19" type="Mazada3" depart="658.00">
+        <route edges="e2 s5 w5 n2 w1"/>
+    </vehicle>
+    <vehicle id="car20" type="Mazada3" depart="709.00">
+        <route edges="w2"/>
+    </vehicle>
+    <vehicle id="car21" type="Mazada3" depart="767.00">
+        <route edges="n3 e5 e6"/>
+    </vehicle>
+
+</routes>

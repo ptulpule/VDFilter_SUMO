@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon Mar 29 20:55:35 2021 by Eclipse SUMO duarouter Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="unreal_layout_custom_widths_final_pedestrians.net.xml"/>
+        <route-files value="pedestrians.trip.xml"/>
+    </input>
+
+    <output>
+        <output-file value="pedestrians.rou.xml"/>
+        <alternatives-output value="pedestrians.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="800.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="car0" type="Mazada3" depart="26.00">
+        <routeDistribution last="0">
+            <route cost="31.38" probability="1.00000000" edges="w3 s5 e6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car1" type="Mazada3" depart="101.00">
+        <routeDistribution last="0">
+            <route cost="27.30" probability="1.00000000" edges="w6 n5 e3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car2" type="Mazada3" depart="151.00">
+        <routeDistribution last="0">
+            <route cost="6.30" probability="1.00000000" edges="w5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car3" type="Mazada3" depart="179.00">
+        <routeDistribution last="0">
+            <route cost="50.24" probability="1.00000000" edges="n2 e2 s5 w5 w4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car4" type="Mazada3" depart="208.00">
+        <routeDistribution last="0">
+            <route cost="16.57" probability="1.00000000" edges="n5 w2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car5" type="Mazada3" depart="286.00">
+        <routeDistribution last="0">
+            <route cost="17.25" probability="1.00000000" edges="n2 e2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car6" type="Mazada3" depart="347.00">
+        <routeDistribution last="0">
+            <route cost="36.25" probability="1.00000000" edges="e1 s2 e5 s6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car7" type="Mazada3" depart="349.00">
+        <routeDistribution last="0">
+            <route cost="36.32" probability="1.00000000" edges="w2 s2 e5 s6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car8" type="Mazada3" depart="351.00">
+        <routeDistribution last="0">
+            <route cost="33.57" probability="1.00000000" edges="s1 s2 e5 s6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car9" type="Mazada3" depart="393.00">
+        <routeDistribution last="0">
+            <route cost="25.05" probability="1.00000000" edges="s4 w2 s2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car10" type="Mazada3" depart="400.00">
+        <routeDistribution last="0">
+            <route cost="6.30" probability="1.00000000" edges="w5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car11" type="Mazada3" depart="407.00">
+        <routeDistribution last="0">
+            <route cost="34.86" probability="1.00000000" edges="n6 n5 w2 s2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car12" type="Mazada3" depart="455.00">
+        <routeDistribution last="0">
+            <route cost="31.75" probability="1.00000000" edges="s5 w5 n2 n1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car14" type="Mazada3" depart="545.00">
+        <routeDistribution last="0">
+            <route cost="38.23" probability="1.00000000" edges="e4 e5 n5 n4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car15" type="Mazada3" depart="567.00">
+        <routeDistribution last="0">
+            <route cost="45.18" probability="1.00000000" edges="w3 w2 s2 e5 n5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car16" type="Mazada3" depart="623.00">
+        <routeDistribution last="0">
+            <route cost="36.32" probability="1.00000000" edges="w2 s2 e5 s6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car17" type="Mazada3" depart="627.00">
+        <routeDistribution last="0">
+            <route cost="24.61" probability="1.00000000" edges="w2 s2 s3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car18" type="Mazada3" depart="642.00">
+        <routeDistribution last="0">
+            <route cost="31.13" probability="1.00000000" edges="e1 e2 n4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car19" type="Mazada3" depart="658.00">
+        <routeDistribution last="0">
+            <route cost="48.50" probability="1.00000000" edges="e2 s5 w5 n2 w1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car20" type="Mazada3" depart="709.00">
+        <routeDistribution last="0">
+            <route cost="7.88" probability="1.00000000" edges="w2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car21" type="Mazada3" depart="767.00">
+        <routeDistribution last="0">
+            <route cost="26.14" probability="1.00000000" edges="n3 e5 e6"/>
+        </routeDistribution>
+    </vehicle>
+</routes>
